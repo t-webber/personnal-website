@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tom Webber - Portfolio</title>
+        <link rel="stylesheet" href="styles/main.css" />
+        <link rel="stylesheet" href="styles/skills.css" />
+        <link rel="stylesheet" href="styles/titles.css" />
+        <link rel="stylesheet" href="styles/scroll.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me </a></li>
+                    <li><a href="#education">Education </a></li>
+                    <li><a href="#projects">Projects </a></li>
+                    <li><a href="#skills">Skills </a></li>
+                    <li><a href="#contact">Contact </a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="about">
+                <h1>Tom Webber</h1>
+                <p class="subtitle">
+                    Student at Télécom Paris, specializing in Applied Algebra,
+                    and Embedded Systems.
+                </p>
+                <p>
+                    Currently working as Chief Information Officer at Télécom
+                    Etude, managing web and software projects with a team-driven
+                    approach.
+                </p>
+            </section>
+            <section id="education">
+                <h2>Higher Education</h2>
+                <div class="education-entry">
+                    <h3>
+                        Diplôme d'Ingénieur in Mathematics and Computer Science
+                    </h3>
+                    <p>
+                        <strong>Institution:</strong> Télécom Paris, Institut
+                        Polytechnique de Paris
+                    </p>
+                    <p><strong>Duration:</strong> Sep 2023 - Jul 2026</p>
+                    <p>
+                        Télécom Paris is one of France's leading “Grandes
+                        Écoles” in computer science and engineering, known for
+                        its academic excellence and industry connections. The
+                        program emphasizes a strong foundation in applied
+                        mathematics, computer science, and engineering,
+                        preparing students for cutting-edge careers in
+                        technology.
+                    </p>
+                    <h4>Specializations</h4>
+                    <p><strong>1. Applied Algebra Major:</strong></p>
+                    <ul>
+                        <li>
+                            Information Theory and Algorithms for Algebra and
+                            Arithmetic
+                        </li>
+                        <li>Error Correcting Codes and Algebraic Curves</li>
+                        <li>Quantum Information and Computation</li>
+                        <li>Mathematical Cryptography</li>
+                    </ul>
+                    <p><strong>2. Embedded Systems Major:</strong></p>
+                    <ul>
+                        <li>Processor and Operating System Architecture</li>
+                        <li>
+                            Bare-metal Implementation and Reconfigurable
+                            Architectures
+                        </li>
+                        <li>HDL Languages, Concurrency, and SoC Design</li>
+                    </ul>
+                    <p><strong>3. Data Science Minor:</strong></p>
+                    <ul>
+                        <li>Statistics, Optimization, and Databases</li>
+                        <li>
+                            Learning Algorithms for Image and Signal Processing
+                        </li>
+                        <li>Machine Learning and Deep Learning</li>
+                    </ul>
+                    <p><strong>4. Core Courses:</strong></p>
+                    <ul>
+                        <li>Logic, Computability, and Type Theory</li>
+                        <li>
+                            Data Structures, Algorithm Proofs, and Complexity
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>Activities:</strong> Active member of Imp'hact
+                        (Cybersecurity Club) and BDS (Sports Society).
+                    </p>
+                </div>
+                <div class="education-entry">
+                    <h3>
+                        Classe Préparatoire aux Grandes Écoles (CPGE) - MPSI/MP*
+                    </h3>
+                    <p><strong>Institution:</strong> Lycée Joffre</p>
+                    <p><strong>Duration:</strong> Sep 2021 - Jul 2023</p>
+                    <p>
+                        A rigorous and highly selective two-year preparatory
+                        program focusing on advanced mathematics, theoretical
+                        physics, and computer science. This program is designed
+                        to prepare students for competitive national entrance
+                        exams to elite French institutions (“Grandes Écoles”).
+                    </p>
+                    <h4>Key Focus Areas:</h4>
+                    <ul>
+                        <li>Advanced Calculus, Linear and Abstract Algebra</li>
+                        <li>Theoretical and Applied Physics</li>
+                        <li>
+                            Algorithm Design and Object-Oriented Programming
+                            (Python, OCaml)
+                        </li>
+                        <li>Mathematical Reasoning and Problem Solving</li>
+                    </ul>
+                    <p>
+                        <strong>Achievements:</strong> Admitted to all
+                        competitive exams (ENS, Centrale-Supélec, Mines-Ponts).
+                    </p>
+                </div>
+                <div class="education-entry">
+                    <h3>
+                        Summer Research Program in Algebra and Number Theory
+                    </h3>
+                    <p>
+                        <strong>Institution:</strong> University of Montpellier
+                    </p>
+                    <p><strong>Duration:</strong> Jul 2022</p>
+                    <p>
+                        Participated in an intensive summer research program
+                        exploring advanced topics in algebra and number theory.
+                    </p>
+                    <ul>
+                        <li>
+                            Galois Theory: Polynomial Extensions and Group
+                            Actions
+                        </li>
+                        <li>
+                            Finite Groups, Abelian Groups, and Sylow Theorems
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>Skills:</strong> Abstract Algebra, Research
+                        Methodology
+                    </p>
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>Bare-Metal led matrix control</h3>
+                    <p>
+                        A low-level programming project focused on working
+                        directly with hardware, bypassing traditional operating
+                        systems. The project consists on programming barem-metal
+                        on a STM32L475 card. It involves setting up and managing
+                        the memory, the gpios, uart communication, the led
+                        matrice, timers, etc.
+                    </p>
+                    <a
+                </div>
+                <div class="project">
+                    <h3>Artefact</h3>
+                    <p>
+                        Design, conception, building and programming logic of
+                        autonomous cars, that also have a remote control (on a
+                        webpage). The cars use Aruco markers to know were to go
+                        and when. They communicate between each other through a
+                        server to optimise their course and avoid collisions.
+                    </p>
+                </div>
+                <div class="project">
+                    <h3>Swarm-rescue</h3>
+                    <p>
+                        Participation in the Swarm-Rescue project, an
+                        extra-curricular project carried out in teams of 5,
+                        aimed at designing collaborative robotic solutions for
+                        search and rescue missions for people in a building. My
+                        role consisted in working on the exploitation of LIDAR
+                        data received and the saving and optimization of
+                        trajectories. I developed skills in autonomous robotics
+                        and collective-oriented programming. This experience
+                        also enabled me to strengthen my skills in project
+                        management, solving complex problems and working as part
+                        of a multi-disciplinary team.
+                    </p>
+                    <a
+                        href="https://emmanuel-battesti.github.io/swarm-rescue-website/"
+                        target="_blank"
+                    >
+                        Link to the challenge's presentation
+                    </a>
+                </div>
+                <div class="project">
+                    <h3>MAD's Website</h3>
+                    <p>
+                        A website for <emph>Make A Difference</emph> - the
+                        environmental NGO of Télécom Paris. It presents the
+                        organisation, informs the students about events and
+                        allows them to place their orders for fruits and
+                        vegetables from the local farm. It also provides a
+                        highly customisable admin panel to manage the users, the
+                        products and the orders. The website was made using
+                        Nextjs, TailwindCSS, ShadCN and Prisma (SQLite).
+                    </p>
+                    <a href="https://mad.telecom-paris.fr" target="_blank">
+                        Link to the website
+                    </a>
+                </div>
+                <div class="project">
+                    <h3>Telecom Etude's Website</h3>
+                    <p>
+                        This website presents the concept of a
+                        <emph>Junior-Entreprise</emph> and shows the clients our
+                        different offers. It also has a blog, a contact form and
+                        information about our different partners and
+                        engagements. Finally, it contains an admin panel to see
+                        the answers to the contact form, to manage the users and
+                        the blog. The website was made using Nextjs,
+                        TailwindCSS, ShadCN and Prisma (SQLite).
+                    </p>
+                    <a href="https://mad.telecom-paris.fr" target="_blank">
+                        Link to the website
+                    </a>
+                </div>
+                <div class="project">
+                    <h3>Chartishow</h3>
+                    <p>
+                        A pure algorithmic bot to play at a 4X game. The goal of
+                        this project was to compare the algorithmic approach and
+                        the Deep Learning approach - done by another team.
+                        Different strategies were implemented to focus on
+                        efficiency and success.
+                    </p>
+                    <a
+                        href="https://github.com/t-webber/aistrat"
+                        target="_blank"
+                    >
+                        View on GitHub
+                    </a>
+                </div>
+                <div class="project">
+                    <h3>Unifsync</h3>
+                    <p>
+                        A cross-plateform app to synchronise data through
+                        multiple devices (notes, todos, events, files, ...). The
+                        transmission works by using a server (in Actix, Rust)
+                        that is open on the internet (hosted on a Raspberry PI).
+                        The app itself is coded using Tauri and Vue.js.
+                    </p>
+                    <span style="display: flex; gap: 10px">
+                        <div>View on Github:</div>
+                        <a
+                            href="https://github.com/t-webber/unifsync-server"
+                            target="_blank"
+                        >
+                            Server
+                        </a>
+                        <a
+                            href="https://github.com/t-webber/unifsync-app"
+                            target="_blank"
+                        >
+                            App
+                        </a>
+                    </span>
+                </div>
+                <div class="project">
+                    <h3>Goto</h3>
+                    <p>
+                        A command-line utility to enhance productivity by
+                        enabling shortcuts for frequently used directories. It
+                        integrates smoothly with tools like Visual Studio Code,
+                        allowing developers to quickly navigate to project
+                        directories and launch associated IDE sessions. The
+                        project reflects your focus on developer tools and user
+                        efficiency.
+                    </p>
+                    <a href="https://github.com/t-webber/goto" target="_blank">
+                        View on GitHub
+                    </a>
+                </div>
+                <div class="project">
+                    <h3>HTMaiL</h3>
+                    <p>
+                        A cross-plateform app to write emails directly in html,
+                        with side-by-side layout (code | render). App made with
+                        Tauri and Yew (Rust and Wasm).
+                    </p>
+                    <a
+                        href="https://github.com/t-webber/htmail"
+                        target="_blank"
+                    >
+                        View on GitHub
+                    </a>
+                </div>
+            </section>
+            <section id="skills" class="skills-section">
+                <h2>Skills</h2>
+
+                <div class="skills-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skills-list">
+                        <div class="skill-card">Rust</div>
+                        <div class="skill-card">C</div>
+                        <div class="skill-card">Python</div>
+                        <div class="skill-card">JavaScript/TypeScript</div>
+                        <div class="skill-card">SQL</div>
+                        <div class="skill-card">Coq</div>
+                        <div class="skill-card">Asm (armv7)</div>
+                        <div class="skill-card">OCaml</div>
+                        <div class="skill-card">Java</div>
+                        <div class="skill-card">C++</div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Frameworks</h3>
+                    <div class="skills-list">
+                        <div class="skill-card">Next</div>
+                        <div class="skill-card">Express</div>
+                        <div class="skill-card">React Native</div>
+                        <div class="skill-card">EJS</div>
+                        <div class="skill-card">Tauri</div>
+                        <div class="skill-card">Yew</div>
+                        <div class="skill-card">Vue.js</div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Libraries</h3>
+                    <div class="skills-list">
+                        <div class="skill-card">OpenCV</div>
+                        <div class="skill-card">NumPy</div>
+                        <div class="skill-card">SciPy</div>
+                        <div class="skill-card">React</div>
+                        <div class="skill-card">Tailwind CSS</div>
+                        <div class="skill-card">ImGui</div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Technical Tools</h3>
+                    <div class="skills-list">
+                        <div class="skill-card">LaTeX</div>
+                        <div class="skill-card">Microsoft Office</div>
+                        <div class="skill-card">LibreOffice</div>
+                        <div class="skill-card">Slack</div>
+                        <div class="skill-card">Discord</div>
+                        <div class="skill-card">Google Workspace</div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Languages</h3>
+                    <div class="skills-list">
+                        <div class="skill-card" style="display: flex; gap: 5px">
+                            <p>French (Native)</p>
+                            <p style="font-style: italic">(C2)</p>
+                        </div>
+                        <div class="skill-card" style="display: flex; gap: 5px">
+                            <p>English (Native)</p>
+                            <p style="font-style: italic">(C1/C2)</p>
+                        </div>
+                        <div class="skill-card" style="display: flex; gap: 5px">
+                            <p>Spanish (Intermediate)</p>
+                            <p style="font-style: italic">(A2/B1)</p>
+                        </div>
+                        <div class="skill-card" style="display: flex; gap: 5px">
+                            <p>German (Basic)</p>
+                            <p style="font-style: italic">(A1/A2)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Other Interests</h3>
+                    <div class="skills-list">
+                        <div class="skill-card" style="display: flex; gap: 5px">
+                            <div>Cryptanalysis</div>
+                            <div style="font-style: italic">
+                                (root-me, cryptohack, CTFs, ...)
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            Badminton manager for training & competitions
+                        </div>
+                        <div class="skill-card">
+                            Music (Saxophone in orchestra)
+                        </div>
+                        <div class="skill-card">History & Antique Cultures</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="work-experience">
+                <h2>Work Experience</h2>
+                <div class="work-entry">
+                    <h3>Chief Information Officer & Web Developer</h3>
+                    <p><strong>Company:</strong> Telecom Etude</p>
+                    <p><strong>Year:</strong> 2024-2025</p>
+                    <ul>
+                        <li>Managing a team and the project</li>
+                        <li>Creation of the website</li>
+                        <li>
+                            Hosting of a modified version of open source overlay
+                        </li>
+                        <li>Internal websites for tools for employees</li>
+                        <li>Development of a CRM - ERP</li>
+                    </ul>
+                </div>
+                <div class="work-entry">
+                    <h3>Project Manager</h3>
+                    <p><strong>Company:</strong> Telecom Etude</p>
+                    <p><strong>Year:</strong> 2024-2025</p>
+                    <ul>
+                        <li>Client communication</li>
+                        <li>Preparation of commercial proposals</li>
+                        <li>
+                            Writing administrative and technical documents
+                            (e.g., purchase orders, mission summaries, framework
+                            agreements, and study agreements)
+                        </li>
+                        <li>
+                            Facilitation of meetings between clients and
+                            technical personnel
+                        </li>
+                        <li>Delivery of project deliverables</li>
+                        <li>
+                            Collection and analysis of client satisfaction
+                            feedback
+                        </li>
+                    </ul>
+                </div>
+                <div class="work-entry">
+                    <h3>Full Stack Developer</h3>
+                    <p><strong>Company:</strong> Make A Difference</p>
+                    <p><strong>Year:</strong> 2024-2025</p>
+                    <p>
+                        Design and creation of a website to present the NGO,
+                        order products, and see upcoming events of the
+                        association.
+                    </p>
+                </div>
+                <div class="work-entry">
+                    <h3>Hardware Repair Technician</h3>
+                    <p><strong>Company:</strong> Espirt PC</p>
+                    <p><strong>Year:</strong> 2024</p>
+                    <ul>
+                        <li>Repairing phones, tablets, PCs, and laptops</li>
+                        <li>
+                            Replacing faulty or old components (screens,
+                            batteries, plastics, storage, CPU, etc.)
+                        </li>
+                        <li>
+                            Diagnosing technical issues and determining
+                            necessary repairs
+                        </li>
+                        <li>
+                            Performing hardware and software troubleshooting and
+                            performance tests
+                        </li>
+                        <li>
+                            Installing and configuring software, boot or system
+                            updates
+                        </li>
+                        <li>
+                            Providing technical support and guidance to
+                            customers
+                        </li>
+                        <li>
+                            Communicating with customers about repair status and
+                            costs
+                        </li>
+                        <li>
+                            Offering advice and recommendations on device issues
+                            and repairs
+                        </li>
+                    </ul>
+                </div>
+                <div class="work-entry">
+                    <h3>Communication Assistance</h3>
+                    <p>
+                        <strong>Company:</strong> Fine-arts museum of
+                        Carcassonne
+                    </p>
+                    <p><strong>Year:</strong> 2019</p>
+                    <p>
+                        Secondary school internship to gain insight into the
+                        operations of an organization, during which I designed
+                        the poster for the temporary exhibition, created books
+                        for children attending the exhibitions, assisted with
+                        inventory, and contributed to the creation of labels for
+                        the artworks on display.
+                    </p>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>
+                    Email:
+                    <a href="mailto:tom.webber@telecom-paris.fr">
+                        tom.webber@telecom-paris.fr
+                    </a>
+                </p>
+                <p>
+                    GitHub:
+                    <a href="https://github.com/t-webber" target="_blank">
+                        github.com/t-webber
+                    </a>
+                </p>
+                <p>
+                    LinkedIn:
+                    <a href="https://linkedin.com/in/t-webber" target="_blank">
+                        linkedin.com/in/t-webber
+                    </a>
+                </p>
+            </section>
+        </main>
+        <footer>
+            <p>© 2024 Tom Webber</p>
+        </footer>
+    </body>
+    <button id="scroll-to-top" title="Go to top">
+        <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <path
+                d="M12 2L12 22M12 2L5 9M12 2L19 9"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+            />
+        </svg>
+    </button>
+    <script src="main.js"></script>
+</html>

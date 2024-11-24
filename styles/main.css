@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #555;
+}
+
+/* Header */
+
+header {
+    background: #555;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Titles */
+
+h1 {
+    color: #555;
+    font-size: xx-large;
+}
+
+.subtitle {
+    color: #555;
+    font-weight: 600;
+    font-size: larger;
+}
+
+h2 {
+    color: #06d;
+    border-bottom: 2px solid #06d;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: #555;
+    margin-top: 20px;
+}
+
+/* Lists */
+
+ul {
+    list-style: disc;
+    margin: 10px 0 10px 20px;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Footer */
+
+footer {
+    background: #555;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Links */
+
+a {
+    color: #06d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#projects .project {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+}
