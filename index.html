@@ -4,20 +4,41 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Tom Webber - Portfolio</title>
+        <link rel="stylesheet" href="gpt.css" />
         <link rel="stylesheet" href="styles/main.css" />
         <link rel="stylesheet" href="styles/skills.css" />
         <link rel="stylesheet" href="styles/titles.css" />
         <link rel="stylesheet" href="styles/scroll.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
     </head>
     <body>
         <header>
             <nav>
                 <ul>
-                    <li><a href="#about">About Me </a></li>
-                    <li><a href="#education">Education </a></li>
-                    <li><a href="#projects">Projects </a></li>
-                    <li><a href="#skills">Skills </a></li>
-                    <li><a href="#contact">Contact </a></li>
+                    <li>
+                        <a href="#about"><i class="fas fa-link"></i> Links</a>
+                    </li>
+                    <li>
+                        <a href="#education"
+                            ><i class="fas fa-graduation-cap"></i> Education</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#projects">
+                            <i class="fas fa-bullseye"></i> Projects</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#work-experience">
+                            <i class="fas fa-briefcase"></i> Experience</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#skills"><i class="fas fa-cogs"></i> Skills</a>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -25,8 +46,8 @@
             <section id="about">
                 <h1>Tom Webber</h1>
                 <p class="subtitle">
-                    Student at Télécom Paris, specializing in Applied Algebra,
-                    and Embedded Systems.
+                    Student at Télécom Paris, specialised in Applied Algebra and
+                    Embedded Systems.
                 </p>
                 <p>
                     Currently working as Chief Information Officer at Télécom
@@ -34,11 +55,34 @@
                     approach.
                 </p>
             </section>
+
+            <section id="links">
+                <h2>Links & contact</h2>
+                <p>
+                    <i class="fas fa-envelope"></i> Email:
+                    <a href="mailto:tom.webber@telecom-paris.fr">
+                        tom.webber@telecom-paris.fr
+                    </a>
+                </p>
+                <p>
+                    <i class="fa-brands fa-github"></i> GitHub:
+                    <a href="https://github.com/t-webber" target="_blank">
+                        github.com/t-webber
+                    </a>
+                </p>
+                <p>
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn:
+                    <a href="https://linkedin.com/in/t-webber" target="_blank">
+                        linkedin.com/in/t-webber
+                    </a>
+                </p>
+            </section>
             <section id="education">
                 <h2>Higher Education</h2>
                 <div class="education-entry">
                     <h3>
-                        Diplôme d'Ingénieur in Mathematics and Computer Science
+                        &ldquo;Diplôme d'Ingénieur&rdquo; in Mathematics and
+                        Computer Science
                     </h3>
                     <p>
                         <strong>Institution:</strong> Télécom Paris, Institut
@@ -46,9 +90,8 @@
                     </p>
                     <p><strong>Duration:</strong> Sep 2023 - Jul 2026</p>
                     <p>
-                        Télécom Paris is one of France's leading “Grandes
-                        Écoles” in computer science and engineering, known for
-                        its academic excellence and industry connections. The
+                        Télécom Paris is France's leading “Grande École” in
+                        computer science, known for its academic excellence. The
                         program emphasizes a strong foundation in applied
                         mathematics, computer science, and engineering,
                         preparing students for cutting-edge careers in
@@ -157,12 +200,11 @@
                     <p>
                         A low-level programming project focused on working
                         directly with hardware, bypassing traditional operating
-                        systems. The project consists on programming barem-metal
+                        systems. The project consists on programming bare-metal
                         on a STM32L475 card. It involves setting up and managing
                         the memory, the gpios, uart communication, the led
                         matrice, timers, etc.
                     </p>
-                   
                 </div>
                 <div class="project">
                     <h3>Artefact</h3>
@@ -299,103 +341,6 @@
                     </a>
                 </div>
             </section>
-            <section id="skills" class="skills-section">
-                <h2>Skills</h2>
-
-                <div class="skills-category">
-                    <h3>Programming Languages</h3>
-                    <div class="skills-list">
-                        <div class="skill-card">Rust</div>
-                        <div class="skill-card">C</div>
-                        <div class="skill-card">Python</div>
-                        <div class="skill-card">JavaScript/TypeScript</div>
-                        <div class="skill-card">SQL</div>
-                        <div class="skill-card">Coq</div>
-                        <div class="skill-card">Asm (armv7)</div>
-                        <div class="skill-card">OCaml</div>
-                        <div class="skill-card">Java</div>
-                        <div class="skill-card">C++</div>
-                    </div>
-                </div>
-
-                <div class="skills-category">
-                    <h3>Frameworks</h3>
-                    <div class="skills-list">
-                        <div class="skill-card">Next</div>
-                        <div class="skill-card">Express</div>
-                        <div class="skill-card">React Native</div>
-                        <div class="skill-card">EJS</div>
-                        <div class="skill-card">Tauri</div>
-                        <div class="skill-card">Yew</div>
-                        <div class="skill-card">Vue.js</div>
-                    </div>
-                </div>
-
-                <div class="skills-category">
-                    <h3>Libraries</h3>
-                    <div class="skills-list">
-                        <div class="skill-card">OpenCV</div>
-                        <div class="skill-card">NumPy</div>
-                        <div class="skill-card">SciPy</div>
-                        <div class="skill-card">React</div>
-                        <div class="skill-card">Tailwind CSS</div>
-                        <div class="skill-card">ImGui</div>
-                    </div>
-                </div>
-
-                <div class="skills-category">
-                    <h3>Technical Tools</h3>
-                    <div class="skills-list">
-                        <div class="skill-card">LaTeX</div>
-                        <div class="skill-card">Microsoft Office</div>
-                        <div class="skill-card">LibreOffice</div>
-                        <div class="skill-card">Slack</div>
-                        <div class="skill-card">Discord</div>
-                        <div class="skill-card">Google Workspace</div>
-                    </div>
-                </div>
-
-                <div class="skills-category">
-                    <h3>Languages</h3>
-                    <div class="skills-list">
-                        <div class="skill-card" style="display: flex; gap: 5px">
-                            <p>French (Native)</p>
-                            <p style="font-style: italic">(C2)</p>
-                        </div>
-                        <div class="skill-card" style="display: flex; gap: 5px">
-                            <p>English (Native)</p>
-                            <p style="font-style: italic">(C1/C2)</p>
-                        </div>
-                        <div class="skill-card" style="display: flex; gap: 5px">
-                            <p>Spanish (Intermediate)</p>
-                            <p style="font-style: italic">(A2/B1)</p>
-                        </div>
-                        <div class="skill-card" style="display: flex; gap: 5px">
-                            <p>German (Basic)</p>
-                            <p style="font-style: italic">(A1/A2)</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skills-category">
-                    <h3>Other Interests</h3>
-                    <div class="skills-list">
-                        <div class="skill-card" style="display: flex; gap: 5px">
-                            <div>Cryptanalysis</div>
-                            <div style="font-style: italic">
-                                (root-me, cryptohack, CTFs, ...)
-                            </div>
-                        </div>
-                        <div class="skill-card">
-                            Badminton manager for training & competitions
-                        </div>
-                        <div class="skill-card">
-                            Music (Saxophone in orchestra)
-                        </div>
-                        <div class="skill-card">History & Antique Cultures</div>
-                    </div>
-                </div>
-            </section>
 
             <section id="work-experience">
                 <h2>Work Experience</h2>
@@ -499,43 +444,118 @@
                     </p>
                 </div>
             </section>
+            <section id="skills" class="skills-section">
+                <h2>Skills</h2>
 
-            <section id="contact">
-                <h2>Contact</h2>
-                <p>
-                    Email:
-                    <a href="mailto:tom.webber@telecom-paris.fr">
-                        tom.webber@telecom-paris.fr
-                    </a>
-                </p>
-                <p>
-                    GitHub:
-                    <a href="https://github.com/t-webber" target="_blank">
-                        github.com/t-webber
-                    </a>
-                </p>
-                <p>
-                    LinkedIn:
-                    <a href="https://linkedin.com/in/t-webber" target="_blank">
-                        linkedin.com/in/t-webber
-                    </a>
-                </p>
+                <div class="skills-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skills-list">
+                        <div class="skill-card">Rust</div>
+                        <div class="skill-card">C</div>
+                        <div class="skill-card">Python</div>
+                        <div class="skill-card">JavaScript/TypeScript</div>
+                        <div class="skill-card">SQL</div>
+                        <div class="skill-card">Coq</div>
+                        <div class="skill-card">Asm (armv7)</div>
+                        <div class="skill-card">OCaml</div>
+                        <div class="skill-card">Java</div>
+                        <div class="skill-card">C++</div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Frameworks</h3>
+                    <div class="skills-list">
+                        <div class="skill-card">Next</div>
+                        <div class="skill-card">Express</div>
+                        <div class="skill-card">React Native</div>
+                        <div class="skill-card">EJS</div>
+                        <div class="skill-card">Tauri</div>
+                        <div class="skill-card">Yew</div>
+                        <div class="skill-card">Vue.js</div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Libraries</h3>
+                    <div class="skills-list">
+                        <div class="skill-card">OpenCV</div>
+                        <div class="skill-card">NumPy</div>
+                        <div class="skill-card">SciPy</div>
+                        <div class="skill-card">React</div>
+                        <div class="skill-card">Tailwind CSS</div>
+                        <div class="skill-card">ImGui</div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Technical Tools</h3>
+                    <div class="skills-list">
+                        <div class="skill-card">LaTeX</div>
+                        <div class="skill-card">Microsoft Office</div>
+                        <div class="skill-card">LibreOffice</div>
+                        <div class="skill-card">Slack</div>
+                        <div class="skill-card">Discord</div>
+                        <div class="skill-card">Google Workspace</div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Languages</h3>
+                    <div class="skills-list">
+                        <div class="skill-card" style="display: flex; gap: 5px">
+                            <div>French (Native)</div>
+                            <div style="font-style: italic">(C2)</div>
+                        </div>
+                        <div class="skill-card" style="display: flex; gap: 5px">
+                            <div>English (Native)</div>
+                            <div style="font-style: italic">(C1/C2)</div>
+                        </div>
+                        <div class="skill-card" style="display: flex; gap: 5px">
+                            <div>Spanish (Intermediate)</div>
+                            <div style="font-style: italic">(A2/B1)</div>
+                        </div>
+                        <div class="skill-card" style="display: flex; gap: 5px">
+                            <div>German (Basic)</div>
+                            <div style="font-style: italic">(A1/A2)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Other Interests</h3>
+                    <div class="skills-list">
+                        <div class="skill-card" style="display: flex; gap: 5px">
+                            <div>Cryptanalysis</div>
+                            <div style="font-style: italic">
+                                (root-me, cryptohack, CTFs, ...)
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            Badminton manager for training & competitions
+                        </div>
+                        <div class="skill-card">
+                            Music (Saxophone in orchestra)
+                        </div>
+                        <div class="skill-card">History & Antique Cultures</div>
+                    </div>
+                </div>
             </section>
         </main>
         <footer>
-            <p>© 2024 Tom Webber</p>
+            <p>&copy; 2024 Tom Webber</p>
         </footer>
     </body>
     <button id="scroll-to-top" title="Go to top">
         <svg
             width="24"
-            height="24"
-            viewBox="0 0 24 24"
+            height="20"
+            viewBox="0 0 24 20"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
         >
             <path
-                d="M12 2L12 22M12 2L5 9M12 2L19 9"
+                d="M12 2L12 17M12 2L5 9M12 2L19 9"
                 stroke="white"
                 stroke-width="2"
                 stroke-linecap="round"

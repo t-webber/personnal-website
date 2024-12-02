@@ -1,8 +1,5 @@
 .skills-category h3 {
-    color: #555;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 600;
+    padding: 15px 0;
 }
 
 .skills-list {
@@ -15,11 +12,11 @@
 }
 
 .skill-card {
-    background-color: #fff;
-    padding: 10px 20px;
+    background-color: var(--bg-accent);
+    padding: 5px 10px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: #555;
+    color: var(--fg-accent);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
